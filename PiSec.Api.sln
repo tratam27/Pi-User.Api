@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiSec.Api", "PiSec.Api\PiSe
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{AC50198B-1A51-4F8E-914A-9F7E3F119854}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiSec.Test", "..\PiSec.Test\PiSec.Test.csproj", "{8592AA36-BCD6-4DA2-A813-7C93DBA6A8F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiSec.Test", "PiSec.Test\PiSec.Test.csproj", "{4BC14586-E5B7-487B-8DAC-0E6FBA87CDF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{AC50198B-1A51-4F8E-914A-9F7E3F119854}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC50198B-1A51-4F8E-914A-9F7E3F119854}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC50198B-1A51-4F8E-914A-9F7E3F119854}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8592AA36-BCD6-4DA2-A813-7C93DBA6A8F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8592AA36-BCD6-4DA2-A813-7C93DBA6A8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8592AA36-BCD6-4DA2-A813-7C93DBA6A8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8592AA36-BCD6-4DA2-A813-7C93DBA6A8F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BC14586-E5B7-487B-8DAC-0E6FBA87CDF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC14586-E5B7-487B-8DAC-0E6FBA87CDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC14586-E5B7-487B-8DAC-0E6FBA87CDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC14586-E5B7-487B-8DAC-0E6FBA87CDF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
