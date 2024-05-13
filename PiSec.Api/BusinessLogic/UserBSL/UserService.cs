@@ -60,7 +60,14 @@ namespace PiSec.Api.BusinessLogic.UserBSL
                 .Where(x => EF.Functions.Like(x.Name.ToLower(), $"%{name}%".ToLower()))
                 .Where(x => x.IsActive).ToList();
             
-            return new ResponseModel<List<User>>(200,"User found successfully.", users);
+            if(users.Count > 0)
+            {
+                return new ResponseModel<List<User>>(200, "User found successfully.", users);
+            }
+            else
+            {
+                return new ResponseModel<List<User>>(404, "User not found.");
+            }
         }
 
         public async Task<ResponseModel<User>> UpdateUsers(UpdateUserRequestModel req,int id)

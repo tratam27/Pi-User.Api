@@ -88,7 +88,7 @@ namespace PiSec.Test
         [Theory]
         [InlineData(null, 200, true)]
         [InlineData("te", 200, true)]
-        [InlineData("aaa", 200, false)]
+        [InlineData("aaa", 404, false)]
         public async Task Get_Users_Should_Return_Expected_StatusCode(string name, int expectedStatusCode, bool isFindData)
         {
             //Arrange
